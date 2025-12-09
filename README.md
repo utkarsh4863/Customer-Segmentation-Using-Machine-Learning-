@@ -1,7 +1,7 @@
 # Customer Segmentation Using Machine Learning
 
 🛍️ **Customer Segmentation Using Machine Learning**  
-This project uses K-Means clustering to segment customers based on their **Annual Income (k$)** and **Spending Score (1-100)**. It provides an interactive Streamlit app to predict clusters for single customers and for bulk CSV uploads, and includes business-oriented labels and insights for each cluster.
+This project uses K-Means clustering to segment customers based on their **Annual Income (k$)** and **Spending Score (1-100)**. It provides an interactive Streamlit app to predict clusters for single [...]
 
 ---
 
@@ -31,13 +31,17 @@ You can try the app online here:
 ---
 
 ## Project Structure
+The project structure is shown below in a code block so it renders correctly on GitHub:
+
+```text
 Customer-Segmentation-Using-Machine-Learning-/
-- app.py                     # Main Streamlit application
-- kmeans_model.pkl           # Trained K-Means model (pickle)
-- scaler.pkl                 # StandardScaler used to scale inputs (pickle)
-- requirements.txt           # Python dependencies
-- .gitignore
-- README.md                  # This file
+├── app.py                    # Main Streamlit application
+├── kmeans_model.pkl          # Trained K-Means model (pickle)
+├── scaler.pkl                # StandardScaler used to scale inputs (pickle)
+├── requirements.txt          # Python dependencies
+├── .gitignore
+└── README.md                 # This file
+```
 
 ---
 
@@ -159,4 +163,3 @@ This project is open-source and free to use for educational purposes. (Specify a
 Utkarsh — GitHub: https://github.com/utkarsh4863
 
 ---
-
